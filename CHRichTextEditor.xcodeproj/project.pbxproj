@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8A4FFD155CC9390098AF92 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8A4FFB155CC9390098AF92 /* SampleViewController.m */; };
+		0E8A4FFE155CC9390098AF92 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8A4FFC155CC9390098AF92 /* SampleViewController.xib */; };
+		0E8A5005155D34DA0098AF92 /* CHRichTextEditor.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E8A5004155D34DA0098AF92 /* CHRichTextEditor.html */; };
+		0E8A500C155D3AB50098AF92 /* CHSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8A500B155D3AB50098AF92 /* CHSheetViewController.m */; };
+		0E8A5010155D3B210098AF92 /* CHSheetColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8A500E155D3B210098AF92 /* CHSheetColorPickerViewController.m */; };
+		0E8A5011155D3B210098AF92 /* CHSheetColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8A500F155D3B210098AF92 /* CHSheetColorPickerViewController.xib */; };
+		0E9448B2155CB5BE00208D23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9448B1155CB5BE00208D23 /* UIKit.framework */; };
+		0E9448B4155CB5BE00208D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9448B3155CB5BE00208D23 /* Foundation.framework */; };
+		0E9448B6155CB5BE00208D23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9448B5155CB5BE00208D23 /* CoreGraphics.framework */; };
+		0E9448BC155CB5BE00208D23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E9448BA155CB5BE00208D23 /* InfoPlist.strings */; };
+		0E9448BE155CB5BE00208D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448BD155CB5BE00208D23 /* main.m */; };
+		0E9448C2155CB5BE00208D23 /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448C1155CB5BE00208D23 /* CHAppDelegate.m */; };
+		0E9448D1155CB60700208D23 /* CHRichTextEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448CF155CB60700208D23 /* CHRichTextEditorViewController.m */; };
+		0E9448D2155CB60700208D23 /* CHRichTextEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E9448D0155CB60700208D23 /* CHRichTextEditorViewController.xib */; };
+		0E9448E4155CB62E00208D23 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448D6155CB62E00208D23 /* HRBrightnessCursor.m */; };
+		0E9448E5155CB62E00208D23 /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448D8155CB62E00208D23 /* HRCgUtil.m */; };
+		0E9448E6155CB62E00208D23 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448DA155CB62E00208D23 /* HRColorCursor.m */; };
+		0E9448E7155CB62E00208D23 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448DC155CB62E00208D23 /* HRColorPickerView.m */; };
+		0E9448E8155CB62E00208D23 /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448DE155CB62E00208D23 /* HRColorPickerViewController.m */; };
+		0E9448E9155CB62E00208D23 /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9448E0155CB62E00208D23 /* HRColorUtil.m */; };
+		0E9448EC155CB64200208D23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9448EB155CB64200208D23 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E8A4FFA155CC9390098AF92 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		0E8A4FFB155CC9390098AF92 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		0E8A4FFC155CC9390098AF92 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		0E8A5004155D34DA0098AF92 /* CHRichTextEditor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CHRichTextEditor.html; sourceTree = "<group>"; };
+		0E8A500A155D3AB50098AF92 /* CHSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSheetViewController.h; sourceTree = "<group>"; };
+		0E8A500B155D3AB50098AF92 /* CHSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSheetViewController.m; sourceTree = "<group>"; };
+		0E8A500D155D3B210098AF92 /* CHSheetColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSheetColorPickerViewController.h; sourceTree = "<group>"; };
+		0E8A500E155D3B210098AF92 /* CHSheetColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSheetColorPickerViewController.m; sourceTree = "<group>"; };
+		0E8A500F155D3B210098AF92 /* CHSheetColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHSheetColorPickerViewController.xib; sourceTree = "<group>"; };
+		0E9448AD155CB5BE00208D23 /* CHRichTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHRichTextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E9448B1155CB5BE00208D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E9448B3155CB5BE00208D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E9448B5155CB5BE00208D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E9448B9155CB5BE00208D23 /* CHRichTextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHRichTextEditor-Info.plist"; sourceTree = "<group>"; };
+		0E9448BB155CB5BE00208D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E9448BD155CB5BE00208D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E9448BF155CB5BE00208D23 /* CHRichTextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHRichTextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		0E9448C0155CB5BE00208D23 /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		0E9448C1155CB5BE00208D23 /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		0E9448CE155CB60700208D23 /* CHRichTextEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRichTextEditorViewController.h; sourceTree = "<group>"; };
+		0E9448CF155CB60700208D23 /* CHRichTextEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRichTextEditorViewController.m; sourceTree = "<group>"; };
+		0E9448D0155CB60700208D23 /* CHRichTextEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHRichTextEditorViewController.xib; sourceTree = "<group>"; };
+		0E9448D5155CB62E00208D23 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		0E9448D6155CB62E00208D23 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		0E9448D7155CB62E00208D23 /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
+		0E9448D8155CB62E00208D23 /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
+		0E9448D9155CB62E00208D23 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		0E9448DA155CB62E00208D23 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		0E9448DB155CB62E00208D23 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		0E9448DC155CB62E00208D23 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		0E9448DD155CB62E00208D23 /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		0E9448DE155CB62E00208D23 /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
+		0E9448DF155CB62E00208D23 /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
+		0E9448E0155CB62E00208D23 /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
+		0E9448EB155CB64200208D23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9448AA155CB5BE00208D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9448EC155CB64200208D23 /* QuartzCore.framework in Frameworks */,
+				0E9448B2155CB5BE00208D23 /* UIKit.framework in Frameworks */,
+				0E9448B4155CB5BE00208D23 /* Foundation.framework in Frameworks */,
+				0E9448B6155CB5BE00208D23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9448A2155CB5BE00208D23 = {
+			isa = PBXGroup;
+			children = (
+				0E9448B7155CB5BE00208D23 /* CHRichTextEditor */,
+				0E9448CC155CB5FA00208D23 /* CHRichTextEditorViewController */,
+				0E9448D3155CB62E00208D23 /* Libraries */,
+				0E9448B0155CB5BE00208D23 /* Frameworks */,
+				0E9448AE155CB5BE00208D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E9448AE155CB5BE00208D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448AD155CB5BE00208D23 /* CHRichTextEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E9448B0155CB5BE00208D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448EB155CB64200208D23 /* QuartzCore.framework */,
+				0E9448B1155CB5BE00208D23 /* UIKit.framework */,
+				0E9448B3155CB5BE00208D23 /* Foundation.framework */,
+				0E9448B5155CB5BE00208D23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E9448B7155CB5BE00208D23 /* CHRichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448C0155CB5BE00208D23 /* CHAppDelegate.h */,
+				0E9448C1155CB5BE00208D23 /* CHAppDelegate.m */,
+				0E8A4FFA155CC9390098AF92 /* SampleViewController.h */,
+				0E8A4FFB155CC9390098AF92 /* SampleViewController.m */,
+				0E8A4FFC155CC9390098AF92 /* SampleViewController.xib */,
+				0E9448B8155CB5BE00208D23 /* Supporting Files */,
+			);
+			path = CHRichTextEditor;
+			sourceTree = "<group>";
+		};
+		0E9448B8155CB5BE00208D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448B9155CB5BE00208D23 /* CHRichTextEditor-Info.plist */,
+				0E9448BA155CB5BE00208D23 /* InfoPlist.strings */,
+				0E9448BD155CB5BE00208D23 /* main.m */,
+				0E9448BF155CB5BE00208D23 /* CHRichTextEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E9448CC155CB5FA00208D23 /* CHRichTextEditorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448CE155CB60700208D23 /* CHRichTextEditorViewController.h */,
+				0E9448CF155CB60700208D23 /* CHRichTextEditorViewController.m */,
+				0E9448D0155CB60700208D23 /* CHRichTextEditorViewController.xib */,
+				0E8A5004155D34DA0098AF92 /* CHRichTextEditor.html */,
+				0E8A500A155D3AB50098AF92 /* CHSheetViewController.h */,
+				0E8A500B155D3AB50098AF92 /* CHSheetViewController.m */,
+				0E8A500D155D3B210098AF92 /* CHSheetColorPickerViewController.h */,
+				0E8A500E155D3B210098AF92 /* CHSheetColorPickerViewController.m */,
+				0E8A500F155D3B210098AF92 /* CHSheetColorPickerViewController.xib */,
+			);
+			path = CHRichTextEditorViewController;
+			sourceTree = "<group>";
+		};
+		0E9448D3155CB62E00208D23 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448D4155CB62E00208D23 /* ColorPicker */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0E9448D4155CB62E00208D23 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0E9448D5155CB62E00208D23 /* HRBrightnessCursor.h */,
+				0E9448D6155CB62E00208D23 /* HRBrightnessCursor.m */,
+				0E9448D7155CB62E00208D23 /* HRCgUtil.h */,
+				0E9448D8155CB62E00208D23 /* HRCgUtil.m */,
+				0E9448D9155CB62E00208D23 /* HRColorCursor.h */,
+				0E9448DA155CB62E00208D23 /* HRColorCursor.m */,
+				0E9448DB155CB62E00208D23 /* HRColorPickerView.h */,
+				0E9448DC155CB62E00208D23 /* HRColorPickerView.m */,
+				0E9448DD155CB62E00208D23 /* HRColorPickerViewController.h */,
+				0E9448DE155CB62E00208D23 /* HRColorPickerViewController.m */,
+				0E9448DF155CB62E00208D23 /* HRColorUtil.h */,
+				0E9448E0155CB62E00208D23 /* HRColorUtil.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E9448AC155CB5BE00208D23 /* CHRichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9448C5155CB5BE00208D23 /* Build configuration list for PBXNativeTarget "CHRichTextEditor" */;
+			buildPhases = (
+				0E9448A9155CB5BE00208D23 /* Sources */,
+				0E9448AA155CB5BE00208D23 /* Frameworks */,
+				0E9448AB155CB5BE00208D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHRichTextEditor;
+			productName = CHRichTextEditor;
+			productReference = 0E9448AD155CB5BE00208D23 /* CHRichTextEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E9448A4155CB5BE00208D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0E9448A7155CB5BE00208D23 /* Build configuration list for PBXProject "CHRichTextEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E9448A2155CB5BE00208D23;
+			productRefGroup = 0E9448AE155CB5BE00208D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E9448AC155CB5BE00208D23 /* CHRichTextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E9448AB155CB5BE00208D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9448BC155CB5BE00208D23 /* InfoPlist.strings in Resources */,
+				0E9448D2155CB60700208D23 /* CHRichTextEditorViewController.xib in Resources */,
+				0E8A4FFE155CC9390098AF92 /* SampleViewController.xib in Resources */,
+				0E8A5005155D34DA0098AF92 /* CHRichTextEditor.html in Resources */,
+				0E8A5011155D3B210098AF92 /* CHSheetColorPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E9448A9155CB5BE00208D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9448BE155CB5BE00208D23 /* main.m in Sources */,
+				0E9448C2155CB5BE00208D23 /* CHAppDelegate.m in Sources */,
+				0E9448D1155CB60700208D23 /* CHRichTextEditorViewController.m in Sources */,
+				0E9448E4155CB62E00208D23 /* HRBrightnessCursor.m in Sources */,
+				0E9448E5155CB62E00208D23 /* HRCgUtil.m in Sources */,
+				0E9448E6155CB62E00208D23 /* HRColorCursor.m in Sources */,
+				0E9448E7155CB62E00208D23 /* HRColorPickerView.m in Sources */,
+				0E9448E8155CB62E00208D23 /* HRColorPickerViewController.m in Sources */,
+				0E9448E9155CB62E00208D23 /* HRColorUtil.m in Sources */,
+				0E8A4FFD155CC9390098AF92 /* SampleViewController.m in Sources */,
+				0E8A500C155D3AB50098AF92 /* CHSheetViewController.m in Sources */,
+				0E8A5010155D3B210098AF92 /* CHSheetColorPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E9448BA155CB5BE00208D23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E9448BB155CB5BE00208D23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E9448C3155CB5BE00208D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E9448C4155CB5BE00208D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E9448C6155CB5BE00208D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHRichTextEditor/CHRichTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "CHRichTextEditor/CHRichTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E9448C7155CB5BE00208D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHRichTextEditor/CHRichTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "CHRichTextEditor/CHRichTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E9448A7155CB5BE00208D23 /* Build configuration list for PBXProject "CHRichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9448C3155CB5BE00208D23 /* Debug */,
+				0E9448C4155CB5BE00208D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E9448C5155CB5BE00208D23 /* Build configuration list for PBXNativeTarget "CHRichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9448C6155CB5BE00208D23 /* Debug */,
+				0E9448C7155CB5BE00208D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E9448A4155CB5BE00208D23 /* Project object */;
+}

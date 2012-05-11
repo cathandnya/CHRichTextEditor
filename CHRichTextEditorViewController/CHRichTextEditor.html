@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+		<meta name="format-detection" content="telephone=no">
+	</head>
+    <script type="text/javascript">
+		var startY, startX;
+		
+        document.addEventListener('touchend', function(e) { // Listen for touch end on the document
+            // Get the touch and coordinates
+            var touch = e.changedTouches.item(0);
+			if (Math.abs(startY - touch.clientY) > 10 || Math.abs(startX - touch.clientX) > 10) {
+				return;
+			}
+								  
+            var touchX = touch.clientX;
+            var touchY = touch.clientY + document.body.scrollTop;
+
+			location.href = "chrichtexteditor://touch?" + touchX + "&" + touchY;
+
+			// Get the rect for the content  
+            var contentDIVRect = document.getElementById('entryContents').getClientRects()[0];
+
+            // Make sure we don't block touches to the content div
+            if (touchX > contentDIVRect.left && touchY < contentDIVRect.bottom) {
+				return;
+            }			
+								  
+								 // alert('Touch!');
+            // If the touch is out of the content div then simply give the div focus
+            document.getElementById('entryContents').focus();
+        }, false);  
+		
+        document.addEventListener('touchstart', function(e) { // Listen for touch start on the document
+			var touch = e.changedTouches.item(0);
+			startX = touch.clientX;
+			startY = touch.clientY;
+		}, false);  
+        
+        function moveImageAtTo(x, y, newX, newY) {
+            // Get our required variables
+            var element  = document.elementFromPoint(x, y);
+            if (element.toString().indexOf('Image') == -1) {
+                // Attempt to move an image which doesn't exist at the point
+                return;
+            }
+            var caretRange = document.caretRangeFromPoint(newX, newY);
+            var selection = window.getSelection();
+            
+            // Save the image source so we know this later when we need to re-insert it
+            var imageSrc = element.src;
+            
+            // Set the selection to the range of the image, so we can delete it
+            var nodeRange = document.createRange();
+            nodeRange.selectNode(element);
+            selection.removeAllRanges();
+            selection.addRange(nodeRange);
+            
+            // Delete the image
+            document.execCommand('delete');
+            
+            // Set the selection to the caret range, so we can then add the image
+            var selection = window.getSelection();
+            var range = document.createRange();
+            selection.removeAllRanges();
+            selection.addRange(caretRange);
+            
+            // Re-insert the image
+            document.execCommand('insertImage', false, imageSrc);
+        }
+		
+		/*
+		function initialFocus() {
+            document.getElementById('content').focus();
+		}
+		
+		
+		function createTouchEvent (option) {
+	    	option = option || {};
+			var param = {
+				type: 'touchend',
+				canBubble: true,
+				cancelable: true,
+				view: window,
+				detail: 0,
+				screenX: 0,
+				screenY: 0,
+				clientX: 0,
+				clientY: 0,
+				ctrlKey: false,
+				altKey: false,
+				shiftKey: false,
+				metaKey: false,
+				touches: 0,
+				targetTouches: 0,
+				changedTouches: 0,
+				scale: 0,
+				rotation: 0,
+		    	touchItem: 0
+			}
+			
+			for(var i in param) if(param.hasOwnProperty(i)){
+				param[i] = option[i] !== undefined
+				? option[i]
+				: param[i]
+				;
+			}
+			
+			var event = document.createEvent('TouchEvent');
+			
+			event.initTouchEvent(param.type, param.canBubble, param.cancelable, param.view, param.detail, param.screenX, param.screenY, param.clientX, param.clientY, param.ctrlKey, param.altKey, param.shiftKey, param.metaKey, param.touches, param.targetTouches, param.changedTouches, param.scale, param.rotation);
+			return event;
+		}
+		
+		function touchAny() {
+			var touchEvent = createTouchEvent();
+			document.dispatchEvent(touchEvent);
+		}
+		
+		function blurAny() {
+			document.getElementById('content').blur();
+		}
+		 */
+		/*
+		function createMouseEvent(eventName, originalEvent, finger) {
+			var e = document.createEvent('MouseEvent');
+			
+			e.initMouseEvent(eventName, true, true,
+							 originalEvent.view, originalEvent.detail,
+							 finger.x || originalEvent.screenX, finger.y || originalEvent.screenY,
+							 finger.x || originalEvent.clientX, finger.y || originalEvent.clientY,
+							 originalEvent.ctrlKey, originalEvent.shiftKey,
+							 originalEvent.altKey, originalEvent.metaKey,
+							 originalEvent.button, finger.target || originalEvent.relatedTarget
+							 );
+			
+			e.synthetic = true;
+			
+			// Set this so we can match shared targets later.
+			//e._finger = finger;
+			
+			return e;
+		}
+		 */
+		
+		/*
+		document.addEventListener('DOMContentLoaded', function (event) {
+								  var touchEvent = createTouchEvent();
+								  
+								  setTimeout(function () {
+											 document.dispatchEvent(touchEvent);
+											 }, 3000);
+								  
+								  }, false);
+		*/
+		function focusContent() {
+			var input = document.getElementById('content'); // your contenteditable element
+			input.focus();
+			var range = document.createRange();
+			range.selectNodeContents(input);
+			
+			var sel = window.getSelection();
+			sel.removeAllRanges();
+			sel.addRange(range);
+		}
+    </script>
+    
+	<body>
+		<div id="frame">
+			<article class="entryArea">
+				<div id="entryContents" class="entryBody" contenteditable="true" name="content">{%content}</div>
+			</article>
+		</div>
+    </body>
+</html>
