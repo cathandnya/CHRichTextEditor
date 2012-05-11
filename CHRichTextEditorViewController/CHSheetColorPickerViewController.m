@@ -35,7 +35,7 @@
 		style.colorMapTileSize = 15;
 		style.colorMapSizeWidth = 20;
 		style.colorMapSizeHeight = 9;
-		style.brightnessLowerLimit = 0.4f;
+		style.brightnessLowerLimit = 0.0f;
 		style.saturationUpperLimit = 0.95f;
 		
 		HRRGBColor c = {0, 0, 0};
